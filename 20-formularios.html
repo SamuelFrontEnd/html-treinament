@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <form action="processador.php" method="post">
+        <fieldset>
+            <label for="campo_nome">Nome :</label><br>
+            <input type="text" name="" id="campo_nome" placeholder="Seu nome completo" required><br>
+
+
+
+            <label>Tipo de curso:</label><br>
+            <input type="radio" name="curso" id="campo_tipo_curso_a" value="Presencial">Presencial <br>
+            <input type="radio" name="curso" id="campo_tipo_curso_a" value="Semi-Presencial">Semi-Presencial <br>
+            <input type="radio" name="curso" id="campo_tipo_curso_b" value="Ead">Ead <br>
+
+
+            <br><br>
+
+
+
+            <label>Selecione a aréa de seu interresse :</label><br>
+
+            <input type="checkbox" name="area"value="ti" required>TI <br>
+            <input type="checkbox" name="area"value="saude" checked>Saúde <br>
+            <input type="checkbox" name="area"value="financas">Finanças <br>
+            <input type="checkbox" name="area"value="agro" disabled>Agro <br>
+            <input type="checkbox" name="area"value="games">Games <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
